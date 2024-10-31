@@ -1,0 +1,212 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Water+Brush&display=swap");
+}
+.container {
+  width: 552px;
+  height: 832px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  padding: 30px 64px 10px 64px;
+  margin-top: 35px;
+}
+
+.head_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head_title h2 {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(33, 38, 40, 1);
+}
+.head_title p {
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.month {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: right;
+}
+.head-desc {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 0px 0px;
+  color: rgba(33, 38, 40, 1);
+  opacity: 0.6;
+}
+.form_container {
+  margin-top: 43px;
+}
+.input {
+  width: 424px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid #00000066;
+  outline: none;
+  padding: 0px 54px 0px 24px;
+  font-size: 18px;
+  color: #212628;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.5;
+  margin-bottom: 27px;
+}
+.card-icon {
+  background-image: url(../images/card_icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+.date-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 22px;
+  margin-bottom: 27px;
+}
+.date {
+  width: 282px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid #00000066;
+  outline: none;
+  padding: 0px 28px 0px 24px;
+  opacity: 0.5;
+}
+.cvv {
+  width: 120px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid #00000066;
+  outline: none;
+  padding: 0px 0px 0px 24px;
+  font-size: 18px;
+  color: #212628;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.5;
+}
+.country-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 22px;
+  margin-bottom: 27px;
+}
+.country-icon {
+  background-image: url(../images/arrow_down.svg);
+  background-repeat: no-repeat;
+  background-position: right 23px center;
+}
+.country {
+  cursor: pointer;
+  width: 282px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid #00000066;
+  outline: none;
+  padding: 0px 22px 0px 25px;
+  opacity: 0.5;
+  font-size: 18px;
+  color: #212628;
+  font-weight: 400;
+  line-height: 32px;
+  appearance: none;
+}
+.zip {
+  width: 120px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid #00000066;
+  outline: none;
+  padding: 0px 0px 0px 24px;
+  font-size: 18px;
+  color: #212628;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.5;
+}
+.checkbox-div {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.checkbox-input {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(33, 38, 40, 0.5);
+}
+
+.highlighted a {
+  color: #e1306c;
+  text-decoration: underline;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.checkbox-input:checked::before {
+  content: url(../images/check-mark.svg);
+}
+
+.btn-price {
+  margin: 29px;
+  width: 370px;
+  height: 64px;
+  border-radius: 32px;
+  cursor: pointer;
+  background: linear-gradient(
+    to left,
+    #c23584 0%,
+    #e2306c 24%,
+    #f77736 84%,
+    #fa963e 100%
+  );
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 4px 15px 0px rgba(222, 49, 111, 0.4);
+}
+.btn-highlighted {
+  color: #fff;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.coupon {
+  width: 370px;
+  height: 64px;
+  margin: auto;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(225, 48, 108, 1);
+}
